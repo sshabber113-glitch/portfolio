@@ -84,7 +84,7 @@ button, input, textarea { font: inherit; }
 
 .section-heading { max-width: 760px; margin-bottom: 0px; }
 .section-heading h2 { font-size: clamp(39px, 5vw, 58px); }
-.section-heading > p:last-child { color: var(--muted); font-size: 16px; max-width: 690px; margin-top: 18px; }
+.section-heading > p:last-child { color: var(--muted); font-size: 16px; max-width: 690px; margin-top: 20px; margin-bottom: 15px; }
 
 .about-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 60px; align-items: start; }
 .about-copy { color: var(--muted); font-size: 16px; }
@@ -109,11 +109,11 @@ button, input, textarea { font: inherit; }
 .project-placeholder { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-bottom: 1px solid rgba(253,201,0,.12); background: radial-gradient(circle at center, rgba(253,201,0,.12), transparent 42%); }
 .project-placeholder span { color: var(--gold); font: 700 12px "Space Grotesk"; letter-spacing: .15em; }
 .project-placeholder strong { margin-top: 10px; font: 700 19px "Space Grotesk"; }
-.project-placeholder small { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.project-placeholder small { color: var(--muted); font-size: 12px; margin-top: 4px; }
 .project-content { padding: 24px; }
 .project-top { display: flex; justify-content: space-between; gap: 10px; color: rgba(255,251,230,.42); font-size: 9px; letter-spacing: .12em; font-weight: 700; margin-bottom: 18px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
-.project-link { display: inline-flex; align-items: center; gap: 10px; color: var(--gold); font-size: 13px; font-weight: 700; margin-top: 23px; }
+.project-link { display: inline-flex; align-items: center; gap: 10px; color: var(--gold); font-size: 12px; font-weight: 700; margin-top: 23px; }
 .project-link span { transition: transform .2s; }
 .project-link:hover span { transform: translate(3px,-3px); }
 
